@@ -1,5 +1,5 @@
 {
-  "name": "revue",
+  "name": "@casper/revue",
   "version": "2.3.0",
   "description": "Redux binding for Vue.",
   "main": "revue.common.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egoist/revue.git"
+    "url": "git+https://github.com/casper/revue.git"
   },
   "author": "EGOIST <0x142857@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egoist/revue/issues"
+    "url": "https://github.com/casper/revue/issues"
   },
-  "homepage": "https://github.com/egoist/revue#readme",
+  "homepage": "https://github.com/casper/revue#readme",
   "devDependencies": {
     "babel-loader": "^6.2.0",
     "babel-plugin-transform-runtime": "^6.1.18",
