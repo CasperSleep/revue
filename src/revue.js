@@ -32,7 +32,7 @@ function bindVue(Vue, store) {
 					this._bindProps.forEach(prop => {
 						const {storeProp, realProp} = prop
 						if (realProp && storeProp) {
-							this.$set(realProp, deepProp(store.getState(), storeProp))
+							this[realProp] = deepProp(store.getState(), storeProp)
 						}
 					})
 				}
